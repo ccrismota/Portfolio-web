@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(240, 2%, 13%)
+}
+
+.containerHeader img{
+    width: 200px;
+    background-color: aliceblue;
+    margin: 15px;
+    border-radius: 30px;
+}
+
+.containerHeader{
+    margin: 20px;
+    border-radius: 30px;
+    border: 1px solid #ffda6b40;
+    background-color: #383838;
+    padding: 20px 15px;
+    color: rgb(241, 245, 248);
+    letter-spacing: -0.25px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.containerHeader h1{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.foto{
+    float: left;
+}
+
+.nome h1{
+    margin-top: 85px;
+    padding: 10px;
+}
+
+.principal-sobre, 
+.principal-curriculo,
+.principal-contato,
+.principal-curiosidade{
+    border-radius: 30px;
+    border: 1px solid #ffda6b40;
+    background-color: #383838;
+    right: 100%;
+    margin: 20px;
+    color: #f1f5f8;
+    letter-spacing: -0.25px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.nav{
+    border-radius: 0px 30px 0px 5px;
+    background-color: #2a2929;
+    padding: 10px 5px auto auto;
+    margin: 20px;
+    text-align: center;
+    float: right;
+    align-items: right;
+    margin: 0px;
+}
+
+ul li{
+    float: left;
+}
+
+ul a{
+    display: block;
+    font-size: 20px;
+    letter-spacing: -0.25px;
+    text-decoration: none;
+    font-weight: bold;
+    color:  #f1f5f8;
+    padding: 10px 30px 10px 20px;  
+}
+
+.nav a:hover{
+    background-position: right bottom;
+    background-color: #383838;
+}
+
+.nav .curiosidade a:hover{
+    background-position: right bottom;
+    background-color: #383838;
+    border-radius: 0px 30px 0px 0px;
+}
+
+
+/**exibir navegação nas abas*/
+
+.principal-curiosidade .curiosidade a{
+    background-position: right bottom;
+    background-color: #383838;
+    border-radius: 0px 30px 0px 0px;
+    color: #ffdb70;
+}
+
+.principal-sobre .sobre a,
+.principal-curriculo .curriculo a,
+.principal-contato .contato a{
+    background-position: right bottom;
+    background-color: #383838;
+    border-radius: 0px 0px 0px 0px;
+    color: #ffdb70;
+}
+
+
+
+
+
+
+
+
+
